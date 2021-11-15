@@ -1,0 +1,218 @@
+<style>h1 {
+/* Font options */
+  font-family: 'Pacifico', cursive;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+}
+body
+{
+background:skyblue;
+margin-left:150px;
+}
+a:links
+{
+color:black;
+text-decoration:none;
+}
+a:hover
+{
+text-decoration:none;
+color:green;
+}
+#container
+{
+margin-top:0px;
+margin-left:0px;
+width:1000px;
+height:800px;
+border:0px solid blue;
+background:white;
+}
+#between
+{
+	width:700px;
+	height:400px;
+	margin-left:130px;
+	margin-top:-200px;
+	border:0px solid black;
+	background:white;
+}
+#between1
+{
+	width:301px;
+	height:35px;
+	margin-left:199px;
+	margin-top:0px;
+	border:1px solid black;
+	background:green;
+}
+#between8
+{
+	width:270px;
+	height:35px;
+	margin-left:214px;
+	margin-top:0px;
+	border:1px solid black;
+	background:green;
+}
+#between9
+{
+	width:242px;
+	height:35px;
+	margin-left:228px;
+	margin-top:0px;
+	border:1px solid black;
+	background:green;
+}
+#between4
+{
+	width:388px;
+	height:35px;
+	margin-left:155px;
+	margin-top:0px;
+	border:1px solid black;
+	background:green;
+}
+#between5
+{
+	width:342px;
+	height:35px;
+	margin-left:178px;
+	margin-top:0px;
+	border:1px solid black;
+	background:green;
+}
+#between6
+{
+	width:349px;
+	height:35px;
+	margin-left:175px;
+	margin-top:0px;
+	border:1px solid black;
+	background:green;
+}
+#between7
+{
+	width:370px;
+	height:35px;
+	margin-left:164px;
+	margin-top:0px;
+	border:1px solid black;
+	background:GREEN;
+}
+#between3
+{
+	width:222px;
+	height:222px;
+	margin-left:750px;
+	margin-top:-50px;
+	border:1px solid black;
+	background: url(images\1.jpg);
+}
+#between10
+{
+	width:130px;
+	height:27px;
+	margin-left:0px;
+	margin-top:15px;
+	border:opx solid black;
+	background:url(reinne/9.jpg)
+}
+#footer
+{
+	width:1000px;
+	height:40px;
+	margin-left:0px;
+	margin-top:-20px;
+	border:0px solid black;
+	background:url(reinne/8.jpg);
+}
+ #between14
+{
+margin-top:-50px;
+margin-left:50px;
+}
+div ul, div ul{margin:0; padding:0;}
+#mydiv ul ul{position:absolute; width:100px;}
+#mydiv ul ul ul{left:180px; top:0;}
+#mydiv li{display:inline-block; position:relative; margin:0 0px 0 0; padding:0;}
+#mydiv li li{width:100%; margin:;}
+#mydiv li a{display:block; padding:0 0 10px 0;}
+#mydiv ul ul{visibility:hidden;}
+#mydiv ul li:hover > ul{visibility:visible;}
+#mydiv li a{color:white; background-color:green; width:198px; margin-left:-1px;}
+#mydiv .active a #mydiv a:hover, #mydiv li:hover > a{color:green; background-color:white;}
+#mydiv li li a, #mydiv .active  li a{color:white; background-color:green;}
+#mydiv li li:hover > a, #mydiv .active .active > a{color:green; background-color:white;}
+
+</style>
+<marquee>COMPUTER HACKS</marquee>
+<div id="mydiv"><ul><li><a href="home.html"><center>HOME</center></a></li>
+<li><a href="ch\games.html"><center>ONLINE GAMES</center></a></li>
+<li><a href="ch\apps.html"><center>ONLINE APPS</center></a></li>
+<li><a href="ch\ict.html"><center>ICT</center></a></li>
+<li><a href="ch\hacking.html"><center>HACKING</center></a></li>
+<li><a href="ch\programming.html"><center>PROGRAMMING</center></a></li>
+<li><a href="ch\aboutus.html"><center>ABOUT US</center></a></li></ul></div>
+<div id="container"><!----------------------------container----------------------------->
+<table align="center"><tr><td style="background-image:url(ch\images\logo.jpg">search</td><td><input type="text"/></td></tr>
+<tr><td><button>SEARCH</button></td></tr></table>
+<h3><u><font color="green">COMPUTER HACKS LINKS:</font></u></h3>
+<div id="links"><!------links---->
+<table>
+<tr><td><div id="between10"><a href="ict.html"><center><rt>>>ICT</rt></a></div>
+<div id="between10"><a href="ch\programming.html"><center><rt>>>PROGRAMMING</rt></a></div>
+<div id="between10"><a href="ch\hacking.html"><center><rt>>>HACKING</rt></a></div>
+<div id="between10"><a href="ch\home.html"><center><rt>>>HOME</rt></a></div>
+</tr></table></div>
+<div id="between">
+<div id="between14">
+<p><FONT face="arial">Here you can learn every computer knowledge
+<h2 align="center"><font COLOR="lightblue" face="arial">we are here for YOU!!!!!!</FONT></I></B></h2>
+<p>.<FONT face="arial">DO all u want	 </div>
+</div>
+</div><!----end of containner---->
+<div id="footer">
+<h6 align="center">© computer hacks 2019 (bello + datch)</h6>
+</div>
